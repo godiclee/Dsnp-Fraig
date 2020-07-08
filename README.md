@@ -1,9 +1,6 @@
 # Functionally Reduced And-Inverter Graph (FRAIG)
 This is the final project of Data Structure and Programming (DSNP) in National Taiwan University.
 
-My program got the first place among ~170 students in the class, and passed all test cases in ./tests.fraig.
-However, the program may still have some hidden bugs, and there is still a lot of room for improvement in terms of time and space complexity.  
-
 This program provides the following functionalities:
 1.  Parse the circuit description file in the AIGER format
 2.  Sweep out the gates that cannot be reached from primary outputs. After this operation, all the gates that are          originally “defined-but-not-used” will be deleted.
@@ -15,6 +12,9 @@ This program provides the following functionalities:
 For Implementation Details, please refer to REPORT.pdf (written in English)
 
 For specification and detailed instructions, please refer to spec.pdf (from the course)
+
+My program got the first place among ~170 students in the class, and passed all test cases in ./tests.fraig.
+However, the program may still have some hidden bugs, and there is still a lot of room for improvement in terms of time and space complexity.  
 
 Special thanks to Prof. Chung-Yang (Ric) Huang，lecturer of the course.
 
