@@ -9,9 +9,9 @@ This program provides the following functionalities:
 5.  Simulate boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.
 6.  Use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.
 
-For Implementation Details, please refer to report.pdf (written in English)
+* For Implementation Details, please refer to report.pdf (written in English)
 
-For specification and detailed instructions, please refer to spec.pdf (from the course)
+* For specification and detailed instructions, please refer to spec.pdf (from the course)
 
 My program got the first place among ~170 students in the class, and passed all test cases in ./tests.fraig.
 However, the program may still have some hidden bugs, and there is still a lot of room for improvement in terms of time and space complexity.  
@@ -19,6 +19,10 @@ However, the program may still have some hidden bugs, and there is still a lot o
 Special thanks to Prof. Chung-Yang (Ric) Huang，lecturer of the course.
 
 ## How to Execute
-Type make clean / make to compile the program. Execute ./fraig to run the program.
+* Type make clean / make to compile the program. 
 
-The program is tested under ubuntu 18.04 (gcc/g++ 7.5)
+* Execute ./fraig to run the program.
+
+* Some test cases (in AIGER format) are provided under ./tests.fraig
+
+* The program is tested under ubuntu 18.04 (gcc/g++ 7.5)
