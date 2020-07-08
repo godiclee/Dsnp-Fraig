@@ -9,7 +9,7 @@ This program provides the following functionalities:
 5.  Simulate boolean logic to group potentially equivalent gates into functionally equivalent candidate (FEC) pair.
 6.  Use a boolean satisfiability solver to formally prove or disprove FEC pair and merge equivalent gates.
 
-For Implementation Details, please refer to REPORT.pdf (written in English)
+For Implementation Details, please refer to report.pdf (written in English)
 
 For specification and detailed instructions, please refer to spec.pdf (from the course)
 
